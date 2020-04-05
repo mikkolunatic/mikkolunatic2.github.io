@@ -1,6 +1,7 @@
 ---
 layout: post
-title: The fear of losing 
+title: Welcome to my website
+categories: Personal
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
