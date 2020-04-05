@@ -4,11 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi, I am a Canadian Web Developper/Designer/Artist that strives to share his passion to others. In my planet, you will find weird ideas or thoughts that sometimes turn great, sometimes turn... sad. But, I do hope you will stick with me! 
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 

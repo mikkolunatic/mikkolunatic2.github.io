@@ -1,0 +1,46 @@
+---
+layout: default
+title: Coloring Pages
+permalink: /coloring-pages/
+files:
+- file: coloring-pages/coloringpage_001.png
+  image_small: coloring-pages/coloringpage_001.png
+  title: Coloring page of Blathers from Animal Crossing
+  caption: Coloring page of Blathers from Animal Crossing
+
+- file: coloring-pages/coloringpage_002.png
+  image_small: coloring-pages/coloringpage_002.png
+  title: Coloring page of Bruni from Frozen 2
+  caption: Coloring page of Bruni from Frozen 2
+
+- file: coloring-pages/coloringpage_003.png
+  image_small: coloring-pages/coloringpage_003.png
+  title: Coloring page of Mike and Sully
+  caption: Coloring page of Mike and Sully
+
+- file: coloring-pages/coloringpage_004.png
+  image_small: coloring-pages/coloringpage_004.png
+  title: Coloring page of SquidGirl from Splatoon
+  caption: Coloring page of Inkling Girl from Splatoon
+
+- file: coloring-pages/coloringpage_005.png
+  image_small: coloring-pages/coloringpage_005.png
+  title: Coloring page of Geralt of Rivia from The Witcher Series
+  caption: Coloring page of Geralt of Rivia from The Witcher Series
+---
+
+
+<h1>Coloring pages</h1>
+<p>I am still on a quest to find a visual style that suits me. For now, I am juggling with a variety of different styles and influences.</p>
+<div class="photo-gallery">
+  <div class="row">
+    {% for file in page.files %}
+      <div class="col-sm-4 padding-bottom text-center">
+        <a href="/download/{{ file.file }}" data-title="{{ file.caption }}" data-lightbox="illustrations">
+          <img src="/download/{{ file.image_small }}" alt="{{ file.title}}"/>
+        </a>
+        <a href="/download/{{ file.file }}" target="_blank" class="btn btn-primary w-100">Download</a>
+      </div>
+    {% endfor %}
+  </div>
+</div>

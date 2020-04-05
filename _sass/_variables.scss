@@ -5,6 +5,7 @@
 
 // Colors
 $blue: #4183C4;
+$primary: #BA9BC4;
 
 // Grays
 $black: #000;
@@ -15,13 +16,13 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$mainfont: 'Maven Pro', sans-serif;
+$helveticaNeue: 'Arvo', serif;
 $georgia: Georgia, serif;
 
 // Mobile breakpoints
 @mixin mobile {
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 767px) {
     @content;
   }
 }

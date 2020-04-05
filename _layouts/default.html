@@ -10,7 +10,15 @@
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/dist/@fortawesome/fontawesome-free/css/all.min.css" />
+    <!-- Lighbox -->
+    <link href="{{ site.baseurl }}/dist/lightbox2/dist/css/lightbox.css" rel="stylesheet" />
+
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
@@ -18,7 +26,7 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-3 wrapper-masthead">
+        <div class="col-md-4 col-lg-3 wrapper-masthead">
           <div class="container">
             <header class="masthead clearfix">
               <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
@@ -30,35 +38,35 @@
 
               <nav>
                 <a href="{{ site.baseurl }}/">Blog</a>
+                <a href="{{ site.baseurl }}/illustrations">Illustrations</a>
+                <a href="{{ site.baseurl }}/design/">Design</a>
+                <a href="{{ site.baseurl }}/coloring-pages/">Coloring pages</a>
+                <a href="{{ site.baseurl }}/shop">Shop</a>
                 <a href="{{ site.baseurl }}/about">About</a>
+                <a href="https://twitter.com/mikkolunatic" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/mikkolunatic/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/mikkolunatic" class="social-icon"><i class="fab fa-github"></i></a>
               </nav>
             </header>
           </div>
         </div>
 
-        <div id="main" role="main" class="col-lg-9">
+        <div id="main" role="main" class="col-md-8 col-lg-9">
           <div class="container">
             {{ content }}
           </div>
         </div>
       </div>
-
-      <div class="row">
-        <div class="wrapper-footer col-sm-12">
-          <div class="container">
-            <footer class="footer">
-              {% include svg-icons.html %}
-            </footer>
-          </div>
-        </div>
-      </div>
     </div>
 
-    {% include analytics.html %}
+      {% include analytics.html %}
   </body>
 
   <script src="{{'/dist/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script>
 	<script src="{{'/dist/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
-	<script src="{{'/dist/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+  <script src="{{'/dist/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+  <script src="{{'/dist/@fortawesome/fontawesome-free/js/fontawesome.min.js' | prepend: site.baseurl}}"></script>
+  <script src="{{'/dist/lightbox2/dist/js/lightbox.js' | prepend: site.baseurl}}"></script>
+	<script src="{{'/js/main.js' | prepend: site.baseurl}}"></script>
 
 </html>
