@@ -381,6 +381,26 @@ footer {
   font-size: .95rem;
 }
 
+//Media query height rules
+@media (max-height: 800px){
+  .site-avatar{
+    width: 130px;
+    height: 130px;
+  }
+
+  nav{
+    margin-top: 2em;
+    font-size: 18px;
+    line-height: 22px;
+
+    a.social-icon{
+      line-height: 28px;
+      font-size: 22px;
+      vertical-align: middle;
+    }
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
