@@ -147,6 +147,15 @@ img {
     clear: both;
 }
 
+.btn.btn-primary{
+  background-image: linear-gradient(to bottom, #bfa2c6, #696099);
+  border:none;
+
+  &:hover{
+    background-image: linear-gradient(to top, #bfa2c6, #696099);
+  }
+}
+
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
@@ -164,6 +173,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow-y: auto;
 
   @include mobile {
     padding-top: 1em;
@@ -242,7 +252,7 @@ img {
 nav {
   display: inline-block;
   clear:both;
-  margin-top: 4em; // @TODO: Vertically middle align
+  margin-top: 3em; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 22px;
   line-height: 28px;
@@ -274,6 +284,7 @@ nav {
       width: 40px;
       height: 40px;
       margin-right: .25em;
+      margin-bottom: .5em;
 
       @include mobile {
         margin: 1.5em .3em;
@@ -313,6 +324,12 @@ nav {
       background-color: $darkerGray;
     }
 
+}
+
+.design-gallery{
+  .col-sm-12{
+    padding: 3em 15px;
+  }
 }
 
 .posts > .post {

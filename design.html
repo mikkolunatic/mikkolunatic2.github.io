@@ -5,13 +5,16 @@ permalink: /design/
 images:
   - image_file: y2k-face.jpg
     image_small: y2k-face.jpg
-    caption: Mockup of notebook
-    title: Mockup of notebook
 
   - image_file: notebook-mockup.jpg
     image_small: notebook-mockup.jpg
-    caption: Mockup of notebook
-    title: Mockup of notebook
+
+  - image_file: y2k_cover.jpg
+    image_small: y2k_cover.jpg
+
+  - image_file: bubbles.jpg
+    image_small: bubbles.jpg
+
 ---
 
 <h1>Design</h1>
@@ -20,7 +23,7 @@ images:
   <div class="row">
     {% for image in page.images %}
       <div class="col-sm-12 padding-bottom">
-        <a href="/images/{{ image.image_file }}" data-title="{{ image.caption }}" data-lightbox="design">
+        <a href="/images/{{ image.image_file }}" data-lightbox="design">
           <img src="/images/{{ image.image_small }}" alt="{{ image.title }}"/>
         </a>
       </div>

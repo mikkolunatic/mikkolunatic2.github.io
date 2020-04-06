@@ -4,10 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Hi, I am a Canadian Web Developper/Designer/Artist that strives to share his passion to others. In my planet, you will find weird ideas or thoughts that sometimes turn great, sometimes turn... sad. But, I do hope you will stick with me! 
+Hi, I am a Canadian Web Developper/Designer/Artist and I strives to share my passion with others.
 
 
 
-### Contact me
+### Stay in touch with me
 
-[email@domain.com](mailto:email@domain.com)
+[Twitter](https://twitter.com/mikkolunatic)
+
+[Instagram](https://www.instagram.com/mikkolunatic/)
+
+[Github](https://github.com/mikkolunatic)
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D01L0VF)
