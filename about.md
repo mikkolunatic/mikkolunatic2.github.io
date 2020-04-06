@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi, I am a Canadian Web Developper/Designer/Artist and I strives to share my passion with others.
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
+### Stay in touch with me
 
-[email@domain.com](mailto:email@domain.com)
+[Twitter](https://twitter.com/mikkolunatic)
+
+[Instagram](https://www.instagram.com/mikkolunatic/)
+
+[Github](https://github.com/mikkolunatic)
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D01L0VF)

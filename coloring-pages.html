@@ -1,0 +1,53 @@
+---
+layout: default
+title: Coloring Pages
+permalink: /coloring-pages/
+files:
+- file: coloring-pages/coloringpage_001.png
+  image_small: coloring-pages/coloringpage_001_small.jpg
+  title: Coloring page of Blathers from Animal Crossing
+  caption: Coloring page of Blathers from Animal Crossing
+  activated: false
+
+- file: coloring-pages/coloringpage_002.png
+  image_small: coloring-pages/coloringpage_002_small.jpg
+  title: Coloring page of Bruni from Frozen 2
+  caption: Coloring page of Bruni from Frozen 2
+  activated: true
+
+- file: coloring-pages/coloringpage_003.png
+  image_small: coloring-pages/coloringpage_003_small.jpg
+  title: Coloring page of Mike and Sully
+  caption: Coloring page of Mike and Sully
+  activated: false
+
+- file: coloring-pages/coloringpage_004.png
+  image_small: coloring-pages/coloringpage_004_small.jpg
+  title: Coloring page of SquidGirl from Splatoon
+  caption: Coloring page of Inkling Girl from Splatoon
+  activated: false
+
+- file: coloring-pages/coloringpage_005.png
+  image_small: coloring-pages/coloringpage_005_small.jpg
+  title: Coloring page of Geralt of Rivia from The Witcher Series
+  caption: Coloring page of Geralt of Rivia from The Witcher Series
+  activated: false
+---
+
+
+<h1>Coloring pages</h1>
+<p>If you can't have too much coloring pages in life, here's your section! From well known characters to original designs, you can print them out and enjoy some stress-free coloring time! I will announce new pages on my social medias! Don't forget to send me a message with the final result! 😉 <br><br> <i>The pages are scaled at letter format (8.5 in x 11 in).</i></p>
+<div class="photo-gallery">
+  <div class="row">
+    {% for file in page.files %}
+      {% if file.activated == true %}
+      <div class="col-sm-4 padding-bottom text-center">
+        <a href="/download/{{ file.file }}" data-title="{{ file.caption }}" data-lightbox="illustrations">
+          <img src="/images/{{ file.image_small }}" alt="{{ file.title}}"/>
+        </a>
+        <a href="/download/{{ file.file }}" target="_blank" class="btn btn-primary w-100">Download</a>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

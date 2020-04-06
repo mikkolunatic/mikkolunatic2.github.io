@@ -7,6 +7,17 @@ layout: default
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <div class="post_data"><i>Published on {{ post.date | date: "%B %e, %Y" }}</i> |
+        {% if post %}
+          {% assign categories = post.categories %}
+        {% else %}
+          {% assign categories = page.categories %}
+        {% endif %}
+        {% for category in categories %}
+        <i class="fas fa-tags"></i> <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+        {% endfor %}
+     </div>
 
       <div class="entry">
         {{ post.excerpt }}

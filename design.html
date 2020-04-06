@@ -1,0 +1,32 @@
+---
+layout: default
+title: Design gallery
+permalink: /design/
+images:
+  - image_file: y2k-face.jpg
+    image_small: y2k-face.jpg
+
+  - image_file: notebook-mockup.jpg
+    image_small: notebook-mockup.jpg
+
+  - image_file: y2k_cover.jpg
+    image_small: y2k_cover.jpg
+
+  - image_file: bubbles.jpg
+    image_small: bubbles.jpg
+
+---
+
+<h1>Design</h1>
+<p>I am still on a quest to find a visual style that suits me. For now, I am juggling with a variety of different styles and influences.</p>
+<div class="design-gallery">
+  <div class="row">
+    {% for image in page.images %}
+      <div class="col-sm-12 padding-bottom">
+        <a href="/images/{{ image.image_file }}" data-lightbox="design">
+          <img src="/images/{{ image.image_small }}" alt="{{ image.title }}"/>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
