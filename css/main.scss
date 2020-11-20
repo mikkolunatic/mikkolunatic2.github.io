@@ -22,6 +22,12 @@ body {
 	background: $white;
   font: 18px/1.4 $mainfont;
   color: $darkGray;
+
+  &.shop-millenium{
+    	background-image: url("/images/shop/background.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
 }
 
 .container {
@@ -400,6 +406,44 @@ footer {
     }
   }
 }
+
+
+//SHOPS
+.shop-millenium{
+  #main{
+    padding-left:0;
+    padding-right:0;
+  }
+  a:not(.social-icon){
+    color: #ffafcb;
+  }
+  footer{
+    color: #FFF;
+  }
+
+  .about-section{
+    max-width: 700px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.5);
+    padding: 1em 3em;
+    border-radius: 20px;
+    border: 1px solid $lightGray;
+
+    @include mobile {
+      padding: 1em;
+    }
+
+    h2, h3, p{
+      color: #FFF;
+      font-size: 85%;
+
+      @include mobile {
+        font-size: 75%;
+      }
+    }
+  }
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

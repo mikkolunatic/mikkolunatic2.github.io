@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/dist/@fortawesome/fontawesome-free/css/all.min.css" />
+    <!-- Lighbox -->
+    <link href="{{ site.baseurl }}/dist/lightbox2/dist/css/lightbox.css" rel="stylesheet" />
+
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico"/>
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body class="shop-millenium">
+    <div class="container-fluid">
+        <div id="main" role="main">
+            <div class="text-center mb-5 ">
+              <h1 class="d-none">Millenium Collection by Mikkolunatic</h1>
+              <a href="/shop/millenium/"><img class="mb-5" alt="Logo of Millenium Collection" src="/images/shop/chrome_logo.png" style="max-width:500px; width: 100%"></a>
+              <p><small class="text-white">*All prices are in CAD</small></p>
+            </div>
+
+            {{ content }}
+        </div>
+        <footer>
+          <div class="text-center">
+            <small><a href="/shop/millenium/about">About the shop and policies</a></small>
+          </div>
+          <nav class="mt-0">
+            <a target="_blank" href="https://www.facebook.com/mikkolunatic" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a target="_blank" href="https://twitter.com/mikkolunatic" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://www.instagram.com/mikkolunatic/" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </nav>
+          <p class="mb-0"><small>©2020 - Millenium Collection by <a href="https://www.instagram.com/mikkolunatic/">Mikkolunatic</a>. All Rights Reserved. </small></p>
+          <p class="mt-0"><small>Online store powered by <a href="https://www.shopify.com">Shopify</a>.</small></p>
+        </footer>
+    </div>
+
+      {% include analytics.html %}
+  </body>
+
+  <script src="{{'/dist/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script>
+	<script src="{{'/dist/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
+  <script src="{{'/dist/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+  <script src="{{'/dist/@fortawesome/fontawesome-free/js/fontawesome.min.js' | prepend: site.baseurl}}"></script>
+  <script src="{{'/dist/lightbox2/dist/js/lightbox.js' | prepend: site.baseurl}}"></script>
+	<script src="{{'/js/main.js' | prepend: site.baseurl}}"></script>
+
+</html>
