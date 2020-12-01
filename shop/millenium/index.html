@@ -16,7 +16,7 @@ title: Shop - Millenium Collection
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  var scriptURL = '../../../js/buy-button-storefront.min.js';
   if (window.ShopifyBuy) {
     if (window.ShopifyBuy.UI) {
       ShopifyBuyInit();
@@ -47,11 +47,12 @@ title: Shop - Millenium Collection
   "product": {
     "styles": {
       "product": {
+        "margin-bottom":"50px",
         "@media (min-width: 601px)": {
-          "max-width": "calc(25% - 20px)",
+          "max-width": "calc(50% - 20px)",
           "margin-left": "20px",
-          "margin-bottom": "50px",
-          "width": "calc(25% - 20px)"
+          "margin-bottom": "100px",
+          "width": "calc(50% - 20px)"
         },
         "img": {
           "height": "calc(100% - 15px)",
@@ -127,7 +128,10 @@ title: Shop - Millenium Collection
     "styles": {
       "products": {
         "@media (min-width: 601px)": {
-          "margin-left": "-20px"
+          "margin-left": "-20px",
+          "display": "block",
+          "max-width": "860px",
+          "margin": "0 auto"
         }
       }
     }
