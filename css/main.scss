@@ -433,7 +433,11 @@ footer {
       padding: 1em;
     }
 
-    h2, h3, p{
+    hr{
+      border-color: #FFF;
+    }
+
+    h2, h3, h4, p{
       color: #FFF;
       font-size: 85%;
 
