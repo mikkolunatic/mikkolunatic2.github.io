@@ -9,7 +9,7 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main_site.css" />
 
     <!-- Font Awesome -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/dist/@fortawesome/fontawesome-free/css/all.min.css" />
@@ -17,49 +17,48 @@
     <link href="{{ site.baseurl }}/dist/lightbox2/dist/css/lightbox.css" rel="stylesheet" />
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico"/>
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4 col-lg-3 wrapper-masthead">
-          <div class="container">
-            <header class="masthead clearfix">
-              <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" width="56" class="d-inline-block align-top" alt="">
+          </a>
 
-              <div class="site-info">
-                <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-                <p class="site-description">{{ site.description }}</p>
-              </div>
-
-              <nav>
-                <a href="{{ site.baseurl }}/">Blog</a>
-                <a href="{{ site.baseurl }}/illustrations">Illustrations</a>
-                <a href="{{ site.baseurl }}/design/">Design</a>
-                <a href="{{ site.baseurl }}/coloring-pages/">Coloring pages</a>
-                <a href="{{ site.baseurl }}/shop">Shop</a>
-                <a href="{{ site.baseurl }}/about">About</a>
-                <a href="https://twitter.com/mikkolunatic" class="social-icon"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/mikkolunatic/" class="social-icon"><i class="fab fa-instagram"></i></a>
-                <a href="https://github.com/mikkolunatic" class="social-icon"><i class="fab fa-github"></i></a>
-                <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#2A2B2D', 'D1D01L0VF');kofiwidget2.draw();</script>
-              </nav>
-            </header>
-          </div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="btn btn-link active">Accueil</a>
+              <a href="#" class="btn btn-link">Blogue</a>
+              <a href="#" class="btn btn-link">Boutique</a>
+              <a href="#" class="btn btn-link">À propos</a>
+            </li>
+          </ul>
         </div>
+      </nav>
 
-        <div id="main" role="main" class="col-md-8 col-lg-9">
-          <div class="container">
-            {{ content }}
+      <section class="hero container-fluid d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <h2 class="heading mb-3 mt-4">Salut, je suis</h2>
+                    <img src="images/name.png" class="img-responsive mb-4"/>
+                    <h3 class="heading mb-5 mt-3">Designer Graphique • Illustrateur • Artiste</h3>
+                    <button type="button" class="btn btn-primary btn-main mb-5">Contactez-moi</button>
+                </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
+      </section>
+      </header>
+
+      {{ content }}
+    <footer>
+    </footer>
 
       {% include analytics.html %}
   </body>

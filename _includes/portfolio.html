@@ -1,0 +1,23 @@
+<div class="text-center mb-5">
+<button data-filter="0" class="btn btn-outline-primary">Tous</button>
+<button data-filter="web" class="btn btn-outline-primary">Design web/UX</button>
+<button data-filter="branding" class="btn btn-outline-primary">Branding</button>
+<button data-filter="illustration" class="btn btn-outline-primary">Illustration</button>
+</div>
+
+<div id="portfolio-grid" class="mb-5">
+  {% for item in site.data.portfolio_items %}
+    <div class="card {{ item.item_categories | sort | join: ' ' }} visible">
+      <div class="card-container">
+        <img src="{{ item.item_image }}" class="card-img-top" alt="...">
+        <div class="overlay">
+          <div class="card-body">
+            <h5 class="card-title">{{ item.item_title }}</h5>
+            <a href="#" class="btn btn-primary">Voir le projet</a>
+          </div>
+        </div>
+        <div class="tag">{{ item.item_category }}</div>
+      </div>
+    </div>
+    {% endfor %}
+</div>

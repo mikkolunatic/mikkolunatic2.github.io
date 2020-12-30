@@ -4,8 +4,10 @@
 //
 
 // Colors
-$blue: #4183C4;
-$primary: #75548b;
+/* Colors variable */
+$primary: #ad78e2;
+$secondary: #E42F76;
+$shadows:#1f253d;
 
 // Grays
 $black: #000;
@@ -15,10 +17,10 @@ $gray: #666;
 $lightGray: #eee;
 $white: #fff;
 
-// Font stacks
-$mainfont: 'Maven Pro', sans-serif;
-$helveticaNeue: 'Arvo', serif;
-$georgia: Georgia, serif;
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+$mainfont: 'Mukta', sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {

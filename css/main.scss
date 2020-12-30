@@ -30,19 +30,12 @@ body {
   }
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
-}
-
 .padding-bottom{
   padding-bottom: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $mainfont;
   color: $darkerGray;
   font-weight: bold;
 
@@ -233,7 +226,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $mainfont;
   font-size: 24px;
   padding: 1em 0;
   font-weight: 500;
@@ -259,7 +252,7 @@ nav {
   display: inline-block;
   clear:both;
   margin-top: 3em; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $mainfont;
   font-size: 22px;
   line-height: 28px;
 

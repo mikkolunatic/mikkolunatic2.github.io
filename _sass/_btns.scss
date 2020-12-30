@@ -1,0 +1,9 @@
+.btn{
+  text-transform: none;
+  border-radius: 0;
+
+
+  &.btn-main{
+    min-width: 180px;
+  }
+}

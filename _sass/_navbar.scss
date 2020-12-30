@@ -1,0 +1,11 @@
+.navbar{
+  padding: 1.5rem 1rem;
+
+  .btn.btn-link{
+    color: $white;
+
+    &.active{
+      color: $primary;
+    }
+  }
+}

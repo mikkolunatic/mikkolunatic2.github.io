@@ -1,0 +1,49 @@
+/* BODY AND CONTAINERS */
+.container{
+    max-width:1280px;
+}
+
+.bg-dark{
+  background-color: $black !important;
+}
+
+body{
+    background-color: $shadows;
+    font-family: 'Open sans', sans-serif;
+}
+
+/* NAV AND HERO */
+.hero{
+  height: 100vh;
+  margin-top: -60px;
+
+    h2, h3{
+        color:$white;
+    }
+    h2{
+        font-size:2.5rem;
+        font-family: 'Mukta', sans-serif;
+        font-weight: 300;
+    }
+    h3{
+        font-weight:600;
+        font-size: 1.4rem;
+    }
+    img{
+        width:100%;
+        max-width:650px;
+    }
+}
+
+/* GLOBAL HEADINGS */
+main h3{
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Mukta', sans-serif;
+}
+
+main h4{
+    color:$shadows;
+    text-transform: uppercase;
+    font-family: 'Mukta', sans-serif;
+}
