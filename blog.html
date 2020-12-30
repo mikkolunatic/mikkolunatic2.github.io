@@ -1,0 +1,58 @@
+---
+layout: default
+permalink: /blogue/
+title: Blogue
+header: false
+---
+
+<div class="text-center header-title container-fluid bg-dark">
+  <h1> Blogue </h1>
+</div>
+<main class="container-fluid pt-5 pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="posts bg-light p-5 ">
+        {% for post in site.posts %}
+          <article class="post {% unless forloop.first %}mt-5{% endunless %}  {% unless forloop.last %}mb-5{% endunless %}">
+
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            {% assign date_english = post.date | date: date_format %}
+            {% include date-french.html %}
+            <div class="post_data"><i>Publié le {{ date_french }}</i> |
+              {% if post %}
+                {% assign categories = post.categories %}
+              {% else %}
+                {% assign categories = page.categories %}
+              {% endif %}
+              {% for category in categories %}
+              <i class="fas fa-tags"></i> <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+              {% unless forloop.last %}&nbsp;{% endunless %}
+              {% endfor %}
+           </div>
+
+            <div class="entry">
+              {{ post.excerpt }}
+            </div>
+
+            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+          </article>
+
+          {% unless forloop.last %}
+          <hr>
+          {% endunless %}
+        {% endfor %}
+        </div>
+      </div>
+      <div class="col-md-3 p-5 text-white">
+        <h3>Catégories</h3>
+        <ul>
+        {% for category in site.categories %}
+          <li><a href="{{site.baseurl}}/categories/#{{category|slugize|first}}">{{ category|first }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>

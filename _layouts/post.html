@@ -2,23 +2,35 @@
 layout: default
 ---
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
-  <div class="post_data"><i>Published on {{ page.date | date: "%B %e, %Y" }}</i> |
-    {% if post %}
-      {% assign categories = post.categories %}
-    {% else %}
-      {% assign categories = page.categories %}
-    {% endif %}
-    {% for category in categories %}
-    <i class="fas fa-tags"></i> <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-    {% unless forloop.last %}&nbsp;{% endunless %}
-    {% endfor %}
+<div class="text-center header-title container-fluid bg-dark">
+  <div>
+    <h1> {{ page.title }} </h1>
+    <div class="post_data"><i>Published on {{ page.date | date: "%B %e, %Y" }}</i> |
+      {% if post %}
+        {% assign categories = post.categories %}
+      {% else %}
+        {% assign categories = page.categories %}
+      {% endif %}
+      {% for category in categories %}
+      <i class="fas fa-tags"></i> <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+      {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+   </div>
  </div>
+</div>
+<main class="container-fluid pt-5 pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <article class="posts bg-light p-5 ">
 
-  <div class="entry">
-    {{ content }}
+          <div class="entry">
+            {{ content }}
+          </div>
+
+          {% include disqus.html %}
+        </article>
+      </div>
+    </div>
   </div>
-
-  {% include disqus.html %}
-</article>
+</main>

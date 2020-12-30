@@ -12,6 +12,14 @@ body{
     font-family: 'Open sans', sans-serif;
 }
 
+.header-title{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $white;
+}
+
 /* NAV AND HERO */
 .hero{
   height: 100vh;
@@ -44,6 +52,5 @@ main h3{
 
 main h4{
     color:$shadows;
-    text-transform: uppercase;
     font-family: 'Mukta', sans-serif;
 }

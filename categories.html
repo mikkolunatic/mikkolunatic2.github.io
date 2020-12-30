@@ -1,24 +1,47 @@
 ---
-layout: page
+layout: default
 permalink: /categories/
 title: Categories
 ---
 
-
-<div id="archives">
-{% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
-
-    <h3 class="category-head">{{ category_name }}</h3>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
-    {% endfor %}
-  </div>
-{% endfor %}
+<div class="text-center header-title container-fluid bg-dark">
+  <h1> Catégories </h1>
 </div>
+<main class="container-fluid pt-5 pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div id="archives" class="bg-light p-5">
+        {% for category in site.categories %}
+          <div class="archive-group {% unless forloop.last %}mb-5{% endunless %}">
+            {% capture category_name %}{{ category | first }}{% endcapture %}
+            <div id="#{{ category_name | slugize }}"></div>
+            <p></p>
+
+            <h3 class="category-head text-dark">{{ category_name }}</h3>
+            <a name="{{ category_name | slugize }}"></a>
+            {% for post in site.categories[category_name] %}
+            <article class="archive-item">
+              <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                {% assign date_english = post.date | date: date_format %}
+                {% include date-french.html %}
+                <span class="post_data_inline"> - <i>Publié le {{ date_french }}</i></span>
+              </h4>
+            </article>
+            {% endfor %}
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+      <div class="col-md-3 p-5 text-white">
+        <h3>Catégories</h3>
+        <ul>
+        {% for category in site.categories %}
+          <li><a href="{{site.baseurl}}/categories/#{{category|slugize|first}}">{{ category|first }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>

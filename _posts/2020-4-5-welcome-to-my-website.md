@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to my website
-categories: Personal
+categories: Job
 ---
 
 Hi and welcome to my new website! I am so thrilled to publish this since it will be my first blog post here AND the release of my brand new website. I have exciting stuff coming up soon that I cannot wait to share with you all.
