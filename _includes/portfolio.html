@@ -6,17 +6,17 @@
 </div>
 
 <div id="portfolio-grid" class="mb-5">
-  {% for item in site.data.portfolio_items %}
-    <div class="card {{ item.item_categories | sort | join: ' ' }} visible">
+  {% for item in site.data.portfolio_items.files %}
+    <div class="card {{ item.categories | sort | join: ' ' }} visible">
       <div class="card-container">
-        <img src="{{ item.item_image }}" class="card-img-top" alt="...">
+        <img src="{{ item.file }}" class="card-img-top" alt="...">
         <div class="overlay">
           <div class="card-body">
-            <h5 class="card-title">{{ item.item_title }}</h5>
-            <a href="#" class="btn btn-primary">Voir le projet</a>
+            <h5 class="card-title">{{ item.title }}</h5>
+            <a href="{{ item.url }}" class="btn btn-primary">Voir le projet</a>
           </div>
         </div>
-        <div class="tag">{{ item.item_category }}</div>
+        <div class="tag">{{ item.category_title }}</div>
       </div>
     </div>
     {% endfor %}
