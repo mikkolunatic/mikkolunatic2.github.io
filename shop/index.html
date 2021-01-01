@@ -1,0 +1,31 @@
+---
+layout: default
+title: Boutique
+permalink: /boutique/
+items:
+- image: images/shop/millenium_collection.jpg
+  name: Collection Millénium (Anglais seulement)
+---
+
+<div class="text-center header-title container-fluid bg-dark">
+  <h1> Boutique </h1>
+</div>
+<main class="container-fluid pt-5 pb-5">
+  <div class="container">
+    <div id="portfolio-grid" class="mb-5">
+      {% for item in page.items %}
+        <div class="card visible">
+          <div class="card-container">
+            <img src="{{site.baseurl}}/{{ item.image }}" class="card-img-top" alt="...">
+            <div class="overlay">
+              <div class="card-body">
+                <h5 class="card-title">{{ item.name }}</h5>
+                <a href="#" class="btn btn-primary">Voir le projet</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+    </div>
+  </div>
+</main>
