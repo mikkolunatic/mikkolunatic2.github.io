@@ -1,12 +1,23 @@
+---
 files:
+- file: "/images/uploads/portfolio/carbon.png"
+  title: Carbon
+  caption: ''
+  activated: false
+  categories:
+  - branding
+  category_title: Branding
+  url: ''
 - file: images/portfolio/cmq.png
   title: CMQ de Québec
-  categories:  [ web ]
+  categories:
+  - web
   category_title: Design web / UX
-  url:
-
+  url: 
 - file: images/portfolio/scott.png
   title: Scott Hollingworth's Woodshop
-  categories: [ web, branding ]
+  categories:
+  - web
+  - branding
   category_title: Design web / Branding
   url: 
