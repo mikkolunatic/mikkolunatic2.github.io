@@ -8,3 +8,4 @@ tags:
 - conseil
 
 ---
+**Ah les moodboards (planches d'ambiance), une des parties les plus plaisantes du processus créatif.** 
