@@ -15,6 +15,14 @@ fields:
     required: false
   label: Titre de l'article
 - name: categories
-  type: tag_list
+  type: select
   default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: categories
+      file: _data/categories.yml
+      path: 
   label: Catégories
