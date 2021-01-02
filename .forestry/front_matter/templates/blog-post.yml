@@ -26,5 +26,9 @@ fields:
       file: _data/categories.yml
       path: categories
   label: Catégories
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 pages:
 - _posts/2021-01-02-le-point-sur-les-moodboards-lorsque-l-on-veut-trop-en-faire-une-oeuvre-d-art.md
