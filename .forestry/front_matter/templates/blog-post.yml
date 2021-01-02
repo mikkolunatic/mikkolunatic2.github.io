@@ -26,3 +26,5 @@ fields:
       file: _data/categories.yml
       path: categories
   label: Catégories
+pages:
+- _posts/le-point-sur-les-moodboards-lorsque-l-on-veut-trop-en-faire-une-oeuvre-d-art.md
