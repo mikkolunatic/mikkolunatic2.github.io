@@ -24,4 +24,5 @@ fields:
       type: documents
       section: ''
       file: _data/categories.yml
+      path: categories
   label: Catégories
