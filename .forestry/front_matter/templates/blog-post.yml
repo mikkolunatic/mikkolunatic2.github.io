@@ -15,14 +15,13 @@ fields:
     required: false
   label: Titre de l'article
 - name: categories
-  type: select
-  default: []
+  type: list
   config:
-    required: false
-    options: []
+    use_select: true
+    min: 
+    max: 
     source:
       type: documents
       section: categories
       file: _data/categories.yml
-      path: 
   label: Catégories
