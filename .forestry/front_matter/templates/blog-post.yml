@@ -21,7 +21,7 @@ fields:
     min: 
     max: 
     source:
-      type: pages
-      section: categories
+      type: documents
+      section: ''
       file: _data/categories.yml
   label: Catégories
