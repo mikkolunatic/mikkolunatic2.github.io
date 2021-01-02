@@ -9,3 +9,12 @@ fields:
   label: Gabarit
   hidden: true
   default: post
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titre de l'article
+- name: categories
+  type: tag_list
+  default: []
+  label: Catégories
