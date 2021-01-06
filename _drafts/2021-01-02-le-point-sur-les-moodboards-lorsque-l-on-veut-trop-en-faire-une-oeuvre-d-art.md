@@ -34,4 +34,4 @@ La base reste assez simple. Cependant, en à peine 6 ans, j'ai vu tellement d'é
 
 C'est par la suite lorsque j'ai commencé à regarder d'autres designers et que j'ai fait mes premiers pas sur le marché du travail. J'ai finalement compris le but d'un moodboard. J'ai été surpris de voir des professionnels faire des moodboards en « tuiles ». Des ensembles très épurés, quasiment comme un tableau Pinterest ( « Heinn?? PINTEREST ?? Té tu un .. » ok ok je vais faire un article sur Pinterest prochainement je pense ). J'ai vu également d'autres personnes faire des ensembles plus éclectiques, plus comme un collage. 
 
-Donc, selon moi, un moodboard n'a pas un ensemble de règles précises, mais doit 
+ 
