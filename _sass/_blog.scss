@@ -1,6 +1,18 @@
+.posts{
+  hr{
+    margin: 4em 0 2em;
+  }
+}
+
 .entry {
   p{
     margin: 15px 0;
+    font-weight: 300;
+    line-height: 24px;
+
+    strong{
+      font-weight: 600;
+    }
   }
 
   h1, h2, h3, h4, h5, h6{
@@ -10,6 +22,52 @@
   h3{
     margin-top: 2em;
     margin-bottom: 1em;
+  }
+
+  ul li{
+    margin: 4px 0;
+  }
+
+  &.excerpt{
+    p, strong{
+      font-weight: 300;
+    }
+  }
+}
+
+.post-nav{
+  margin-top: 2em;
+  div{
+    width: 100%;
+    max-width: 300px;
+
+    @media (max-width: 800px) {
+      max-width: 100%;
+    }
+
+    &.nav-next{
+      text-align: right;
+
+      @media (max-width: 800px) {
+        text-align: left;
+        padding:0;
+        margin-top: 1em;
+      }
+
+      padding-left: 10px;
+    }
+    span{
+      font-weight: 300;
+      margin-bottom: 5px;
+      display: block;
+    }
+
+    a{
+      font-size: 1.4rem;
+      font-weight: 600;
+      font-family: $mainfont;
+      line-height: 1.6rem;
+    }
   }
 }
 

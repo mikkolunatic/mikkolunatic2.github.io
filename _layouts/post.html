@@ -15,7 +15,7 @@ layout: default
         {% assign categories = page.categories %}
       {% endif %}
       {% for category in categories %}
-      <i class="fas fa-tags"></i> <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+      <i class="fas fa-folder"></i> <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
    </div>
@@ -30,9 +30,35 @@ layout: default
           <div class="entry">
             {{ content }}
           </div>
+          <hr>
+          {% include  share.html %}
+          <p class="mt-3">
+            <small>
+            <i class="fas fa-tags mr-1"></i>
+            {% for tag in page.tags %}
+              {% capture tag_name %}{{ tag }}{% endcapture %}
+              <a href="/tag/{{ tag_name }}">{{ tag_name }}{% if forloop.last == false %},{% endif%} </a>
+            {% endfor %}
+            </small>
+          </p>
 
           {% include disqus.html %}
         </article>
+
+        <div class="post-nav d-md-flex flex-wrap justify-content-between">
+          <div class="nav-previous">
+          {% if page.previous.url %}
+              <span class="meta-nav text-white" aria-hidden="true">Article précédent</span>
+              <a class="prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
+          {% endif %}
+          </div>
+          <div class="nav-next">
+          {% if page.next.url %}
+              <span class="meta-nav text-white" aria-hidden="true">Article suivant</span>
+              <a class="next" href="{{page.next.url}}">{{page.next.title}}</a>
+          {% endif %}
+          </div>
+        </div>
       </div>
     </div>
   </div>

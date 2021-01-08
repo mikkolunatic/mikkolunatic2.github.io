@@ -16,7 +16,7 @@ header: false
         {% for post in site.posts %}
           <article class="post {% unless forloop.first %}mt-5{% endunless %}  {% unless forloop.last %}mb-5{% endunless %}">
 
-            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
             {% assign date_format = site.minima.date_format | default: "%-d %B %Y"  %}
             {% assign date_english = post.date | date: date_format %}
             {% include date-french.html %}
@@ -27,12 +27,12 @@ header: false
                 {% assign categories = page.categories %}
               {% endif %}
               {% for category in categories %}
-              <i class="fas fa-tags"></i> <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+              <i class="fas fa-folder"></i>  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
               {% unless forloop.last %}&nbsp;{% endunless %}
               {% endfor %}
            </div>
 
-            <div class="entry">
+            <div class="entry excerpt">
               {{ post.excerpt }}
             </div>
 
