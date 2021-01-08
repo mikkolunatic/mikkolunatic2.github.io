@@ -20,18 +20,18 @@ Si tu ne sais pas ce qu'est un moodboard, la définition simple et un peu boboch
 
 Le moodboard étant, principalement, un outil, c'est quelque chose qu'un designer/artiste est libre d'intégrer ou non dans sa démarche.
 
-Voici quelques exemples de moodboards que j'ai pris sur le web. Comme on peut voir, ça peut rapidement aller dans tous les sens: 
+Voici quelques exemples de moodboards que j'ai pris sur le web. Comme on peut voir, ça peut rapidement aller dans tous les sens:
 
 \[ images \]
 
 ### Pleine liberté ou méthode précise?
 
-Lorsque j'étais encore étudiant en multimédia et en design graphique, le moodboard était, évidemment, un outil très important. Les enseignants et professionnels du design avaient souvent chacun leurs méthodes et on constatait rapidement que c'était loin d'être du scrapbooking. Il faut prendre soin de représenter l'ambiance, mais aussi de rassembler des styles typographique, des motifs, iconographies, etc. 
+Lorsque j'étais encore étudiant en multimédia et en design graphique, le moodboard était, évidemment, un outil très important. Les enseignants et professionnels du design avaient souvent chacun leurs méthodes et on constatait rapidement que c'était loin d'être du scrapbooking. Il faut prendre soin de représenter l'ambiance, mais aussi de rassembler des styles typographique, des motifs, iconographies, etc.
 
-La base reste assez simple. Cependant, en à peine 6 ans, j'ai vu tellement d'école de pensées sur le moodboard. Cet outil que je pensais comme un simple assemblage d'images et d'inspiration est devenu entouré d'une tonne de contraintes et de règles. On me disait de les faire droit et en grille, ensuite de les faire comme un collage, ensuite de les faire sur du carton, à l'ordi, en 3D (???) ... On me montrait une tonne d'exemples de « bons moodboards » qui étaient « beaux »... 
+La base reste assez simple. Cependant, en à peine 6 ans, j'ai vu tellement d'école de pensées sur le moodboard. Cet outil que je pensais comme un simple assemblage d'images et d'inspiration est devenu entouré d'une tonne de contraintes et de règles. On me disait de les faire droit et en grille, ensuite de les faire comme un collage avec des coupures de magazine, ensuite de les faire sur du carton, à l'ordi, en 3D (???) ... On me montrait une tonne d'exemples de « bons moodboards » qui étaient « beaux »...
 
-**Mais est-ce ça le moodboard? Une oeuvre d'art inspirante?** 
+**Mais est-ce ça le moodboard? Une oeuvre d'art inspirante?**
 
-C'est par la suite lorsque j'ai commencé à regarder d'autres designers et que j'ai fait mes premiers pas sur le marché du travail. J'ai finalement compris le but d'un moodboard. J'ai été surpris de voir des professionnels faire des moodboards en « tuiles ». Des ensembles très épurés, quasiment comme un tableau Pinterest ( « Heinn?? PINTEREST ?? Té tu un .. » ok ok je vais faire un article sur Pinterest prochainement je pense ). J'ai vu également d'autres personnes faire des ensembles plus éclectiques, plus comme un collage. 
+C'est par la suite lorsque j'ai commencé à regarder d'autres designers et que j'ai fait mes premiers pas sur le marché du travail que j'ai finalement compris le but d'un moodboard. J'ai été surpris de voir des professionnels faire des moodboards en « tuiles ». Des ensembles très épurés, quasiment comme un tableau Pinterest ( « Heinn?? PINTEREST ?? Té tu un .. » ok ok je vais faire un article sur Pinterest prochainement je pense ). J'ai vu également d'autres personnes faire des ensembles plus éclectiques, plus comme un collage.
 
- 
+Je pense que, ce qu'il faut retenir, c'est que la composition d'un moodboard, selon moi, est propre au designer et à ce qui l'inspire. On a souvent tendance à s'imposer une façon de faire puisque c'est « comme ça qu'il faut faire ». Oui, bien sûr, il faut garder en tête d'intégrer minimalement les composantes principales d'un moodboard selon votre domaine d'activité. De plus, si jamais on veut mont
