@@ -24,6 +24,19 @@ Voici quelques exemples de moodboards que j'ai pris sur le web. Comme on peut vo
 
 \[ images \]
 
+### Rapidement, qu'est-ce qui est important de mettre dans un moodboard?
+
+Ça dépend vraiment du projet, du but de votre moodboard et de votre domaine d'activité. Un moodboard pour un projet de design d'intérieur ne comportera pas les mêmes caractéristiques que celui pour un concept de jeu-vidéo. 
+
+En général, pour mes projets de design graphique, j'essai d'avoir minimalement ces items: 
+
+* Des images de l'ambiance voulue (elles peuvent être abstraites ou concrètes, photographiques, illustratives, etc). Ces images peuvent aussi guider certains choix visuels;
+* Des choix de couleur;
+* Des choix typographiques ou une idée du style typographique voulu;
+* Des exemples de motifs et de textures. 
+
+On pourrait également, selon le style de projet, ajouter des exemples d'interfaces, des exemples d'icônes, etc. Si le projet accorde une grande importance aux personas et à une clientèle précise, je mets souvent des photographies de la clientèle cible et de leurs comportements.
+
 ### Pleine liberté ou méthode précise?
 
 Lorsque j'étais encore étudiant en multimédia et en design graphique, le moodboard était, évidemment, un outil très important. Les enseignants et professionnels du design avaient souvent chacun leurs méthodes et on constatait rapidement que c'était loin d'être du scrapbooking. Il faut prendre soin de représenter l'ambiance, mais aussi de rassembler des styles typographique, des motifs, iconographies, etc.
@@ -34,4 +47,4 @@ La base reste assez simple. Cependant, en à peine 6 ans, j'ai vu tellement d'é
 
 C'est par la suite lorsque j'ai commencé à regarder d'autres designers et que j'ai fait mes premiers pas sur le marché du travail que j'ai finalement compris le but d'un moodboard. J'ai été surpris de voir des professionnels faire des moodboards en « tuiles ». Des ensembles très épurés, quasiment comme un tableau Pinterest ( « Heinn?? PINTEREST ?? Té tu un .. » ok ok je vais faire un article sur Pinterest prochainement je pense ). J'ai vu également d'autres personnes faire des ensembles plus éclectiques, plus comme un collage.
 
-Je pense que, ce qu'il faut retenir, c'est que la composition d'un moodboard, selon moi, est propre au designer et à ce qui l'inspire. On a souvent tendance à s'imposer une façon de faire puisque c'est « comme ça qu'il faut faire ». Oui, bien sûr, il faut garder en tête d'intégrer minimalement les composantes principales d'un moodboard selon votre domaine d'activité. De plus, si jamais on veut mont
+Je pense que, ce qu'il faut retenir, c'est que la **composition** d'un moodboard, selon moi, est propre au designer et à ce qui l'inspire. On a souvent tendance à s'imposer une façon de faire puisque c'est « comme ça qu'il faut faire ». Je crois que dès que vous avez les principales composantes du moodboard selon votre projet 
