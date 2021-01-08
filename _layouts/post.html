@@ -5,7 +5,10 @@ layout: default
 <div class="text-center header-title container-fluid bg-dark">
   <div>
     <h1> {{ page.title }} </h1>
-    <div class="post_data"><i>Published on {{ page.date | date: "%B %e, %Y" }}</i> |
+    {% assign date_format = site.minima.date_format | default: "%-d %B %Y" %}
+    {% assign date_english = page.date | date: date_format %}
+    {% include date-french.html %}
+    <div class="post_data mt-4"><i>Publié le {{ date_french }}</i> |
       {% if post %}
         {% assign categories = post.categories %}
       {% else %}

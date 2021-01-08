@@ -1,5 +1,16 @@
-.entry p{
-  margin: 15px 0;
+.entry {
+  p{
+    margin: 15px 0;
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    color: $black;
+  }
+
+  h3{
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
 }
 
 .post_data_inline{

@@ -17,7 +17,7 @@ header: false
           <article class="post {% unless forloop.first %}mt-5{% endunless %}  {% unless forloop.last %}mb-5{% endunless %}">
 
             <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            {% assign date_format = site.minima.date_format | default: "%-d %B %Y"  %}
             {% assign date_english = post.date | date: date_format %}
             {% include date-french.html %}
             <div class="post_data"><i>Publié le {{ date_french }}</i> |
@@ -36,7 +36,7 @@ header: false
               {{ post.excerpt }}
             </div>
 
-            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Lire plus</a>
           </article>
 
           {% unless forloop.last %}
