@@ -5,6 +5,7 @@ permalink: /boutique/
 items:
 - image: images/shop/millenium_collection.jpg
   name: Collection Millénium (Anglais seulement)
+  url: shop/millenium/
 ---
 
 <div class="text-center header-title container-fluid bg-dark">
@@ -20,7 +21,7 @@ items:
             <div class="overlay">
               <div class="card-body">
                 <h5 class="card-title">{{ item.name }}</h5>
-                <a href="#" class="btn btn-primary">Voir le projet</a>
+                <a href="{{ site.baseurl }}/{{item.url}}" class="btn btn-primary">Voir le projet</a>
               </div>
             </div>
           </div>
